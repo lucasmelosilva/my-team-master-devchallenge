@@ -8,6 +8,21 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+header {
+  display: flex
+}
+
 h2 {
   font-family: 'PT Serif', serif;
+  font-size: 36px;
+  font-weight: bold;
+
+  line-height: 48px;
+  letter-spacing: -0.045px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.015px;
 }
