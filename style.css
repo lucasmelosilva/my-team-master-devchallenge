@@ -35,8 +35,8 @@ h2 {
 }
 
 section {
-  display: flex;
-  gap: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   flex-wrap: wrap;
 }
 
@@ -50,10 +50,13 @@ section {
 }
 
 .office {
+  text-align: right;
+  writing-mode: vertical-lr;
   position: absolute;
-  top: 60px;
-  right: -47px;
-  transform: rotate(90deg);
+  top: 0;
+  margin-left: 10px;
+
+
   text-transform: uppercase;
 
   font-family: 'PT Serif', serif;
