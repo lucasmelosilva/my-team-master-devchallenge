@@ -38,6 +38,7 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   flex-wrap: wrap;
+  margin-top: 150px;
 }
 
 .team-member {
@@ -49,7 +50,7 @@ section {
   width: 233px;
 }
 
-.office {
+.job {
   text-align: right;
   writing-mode: vertical-lr;
   position: absolute;
