@@ -38,10 +38,17 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   flex-wrap: wrap;
-  margin-top: 150px;
+  margin-top: 60px;
+}
+
+.team-member:nth-child(2),
+.team-member:nth-child(5){
+  margin-top: 140px;
+
 }
 
 .team-member {
+  margin-top: 60px;
   width: 265px;
   position: relative;
 }
