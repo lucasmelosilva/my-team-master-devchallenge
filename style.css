@@ -24,7 +24,7 @@ h2 {
   font-size: 36px;
   font-weight: bold;
   line-height: 48px;
-  letter-spacing: -0.045px;
+  letter-spacing: -0.045em;
 }
 
 .description {
@@ -88,4 +88,46 @@ footer {
   font-size: 14px;
   font-weight: 500;
   line-height: 17px;
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    width: 90%;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  h2 {
+    margin-bottom: 50px;
+  }
+  .description p,
+ .team-member p  {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  section {
+    grid-template-columns: repeat(2, 1fr);
+    width: fit-content;
+  }
+  .team-member {
+    width: 214px;
+    margin-top: 60px;
+  }
+  .team-member img {
+    width: 138.72px;
+  }
+  .job {
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .team-member:nth-child(2),
+  .team-member:nth-child(5) {
+    margin-top: 60px
+  }
+  .team-member:nth-child(2n) {
+    margin-top: 135px;
+  }
+
+
 }
